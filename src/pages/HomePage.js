@@ -1,7 +1,6 @@
 import React, { useEffect } from "react";
 import axios from "axios";
 import { BrowserRouter as Router, Link } from "react-router-dom";
-import CircularProgress from "@material-ui/core/CircularProgress";
 
 const HomePage = () => {
   const [pic, setPic] = React.useState([]);
